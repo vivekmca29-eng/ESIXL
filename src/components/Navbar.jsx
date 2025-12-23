@@ -1,13 +1,12 @@
-import React from 'react'
+import React from 'react';
+import logo from "../assets/APS_LOGO.png";
 
 function Navbar() {
   return (
-    <div class="max-w-screen-xl mx-auto border-b-[1px] py-2 px-4 flex items-center justify-between">
-            <h1 className='text-lg'>APS Group</h1>
-            <button className='border rounded  text-semibold leading-none tracking-tight py-2 px-4 capitalize'>
-                sign out
-            </button>
-       </div>            
-  )  
+    <div className="max-w-screen-xl mx-auto py-2 px-4 flex items-center justify-between border">
+      <img src={logo} alt="logo" className=" h-10" />
+    </div>
+  );
 }
-export default Navbar
+
+export default Navbar;

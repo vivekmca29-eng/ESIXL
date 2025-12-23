@@ -9,7 +9,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="w-full h-screen bg-zinc-800 text-white">
+    <div className="w-full h-screen">
       <Navbar />
       <ExlxForm />
     </div>
